@@ -1,0 +1,550 @@
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	}
+
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #ffffff; 
+	background: #fff url("../img/ZenBG.png") no-repeat fixed bottom right;
+	
+	margin: 0; 
+	padding: 0; 
+	}
+
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	font-family: 'Dancing Script', cursive;
+	font-size: 200%;
+	}
+h3 { 
+	font-family: 'Gloria Hallelujah', cursive;
+	letter-spacing: 1px; 
+	margin-bottom: 5px; 
+	color: white;
+	
+   font-size: 4em;
+  
+  text-shadow:
+    white 0.006em 0.006em 0.007em,
+    #9c9c9c 1px 1px 1px,
+    #9c9c9c 1px 2px 1px,
+    #9c9c9c 1px 3px 1px,
+    #9c9c9c 1px 4px 1px,
+    #9c9c9c 1px 5px 1px,
+    #9c9c9c 1px 6px 1px,
+    #9c9c9c 1px 7px 1px,
+    #9c9c9c 1px 8px 1px,
+    #9c9c9c 1px 9px 1px,
+    #9c9c9c 1px 10px 1px,
+    #9c9c9c 1px 11px 1px,
+    #9c9c9c 1px 12px 1px,
+    rgba(16, 16, 16, 0.4) 1px 18px 6px,
+    rgba(16, 16, 16, 0.2) 1px 22px 10px,
+    rgba(16, 16, 16, 0.2) 1px 26px 35px,
+    rgba(16, 16, 16, 0.4) 1px 30px 65px,
+    white -0.15em -0.1em 100px;
+	
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+
+
+.page-wrapper { 
+	/*background: url("../img/ZenBG2.png") no-repeat top left; */
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+	
+header h1 { 
+	margin-top: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	
+
+	align-self: center;
+  @include transform3d(rotateX(50deg) rotateZ(1deg));
+  
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+  color: #f5f5f5;
+  text-shadow:
+    white 0.006em 0.006em 0.007em,
+    #9c9c9c 1px 1px 1px,
+    #9c9c9c 1px 2px 1px,
+    #9c9c9c 1px 3px 1px,
+    #9c9c9c 1px 4px 1px,
+    #9c9c9c 1px 5px 1px,
+    #9c9c9c 1px 6px 1px,
+    #9c9c9c 1px 7px 1px,
+    #9c9c9c 1px 8px 1px,
+    #9c9c9c 1px 9px 1px,
+    #9c9c9c 1px 10px 1px,
+    #9c9c9c 1px 11px 1px,
+    #9c9c9c 1px 12px 1px,
+    rgba(16, 16, 16, 0.4) 1px 18px 6px,
+    rgba(16, 16, 16, 0.2) 1px 22px 10px,
+    rgba(16, 16, 16, 0.2) 1px 26px 35px,
+    rgba(16, 16, 16, 0.4) 1px 30px 65px,
+    white -0.15em -0.1em 100px;
+	}
+	
+header h2 { 
+
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	margin-top: 5px;
+	margin-left: 300px;
+	margin-bottom: 50px;
+
+  align-self: center;
+  @include transform3d(rotateX(50deg) rotateZ(1deg));
+  
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+  color: #f5f5f5;
+  text-shadow:
+    white 0.006em 0.006em 0.007em,
+    #9c9c9c 1px 1px 1px,
+    #9c9c9c 1px 2px 1px,
+    #9c9c9c 1px 3px 1px,
+    #9c9c9c 1px 4px 1px,
+    #9c9c9c 1px 5px 1px,
+    #9c9c9c 1px 6px 1px,
+    #9c9c9c 1px 7px 1px,
+    #9c9c9c 1px 8px 1px,
+    #9c9c9c 1px 9px 1px,
+    #9c9c9c 1px 10px 1px,
+    #9c9c9c 1px 11px 1px,
+    #9c9c9c 1px 12px 1px,
+    rgba(16, 16, 16, 0.4) 1px 18px 6px,
+    rgba(16, 16, 16, 0.2) 1px 22px 10px,
+    rgba(16, 16, 16, 0.2) 1px 26px 35px,
+    rgba(16, 16, 16, 0.4) 1px 30px 65px,
+    white -0.15em -0.1em 100px;
+	}
+header {
+	padding-top: 20px;
+	padding-left: 30px;
+	height: 250px;
+	background: transparent url("../img/backTitle.png") no-repeat top left; 
+	width: 100%;
+	
+	box-shadow: 0px 0px 30px #000;
+    border-radius: 30px;
+	
+	
+}
+
+.summary {
+	clear: both; 
+	margin: 20px 20px 20px 20px; 
+	width: 300px; 
+	float: left;
+	
+	
+	}
+.summary p, .summaryExtra p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	}
+
+.summary a{
+	color: white;
+	font-weight: bold;
+}
+	
+.summaryExtra {
+	clear: both; 
+	margin: 20px 20px 20px 20px; 
+	width: 300px; 
+	float: left;
+	}
+
+	
+.summary-back{
+	background-color: #3C1BC9;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+	
+	width: 325px;
+	height: 360px;
+	
+	position: absolute;
+	top: 250px;
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+	
+	z-index: -10;
+	
+}	
+
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	
+	}
+	
+
+.explanation{
+	background: transparent url("../img/backTitle.png") no-repeat top left; 
+	width: 85%;
+	
+	margin-right: 10%;
+	margin-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	
+	left: -10%;
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+}	
+
+.participation{
+	background: transparent url("../img/backTitle.png") no-repeat top left; 
+	width: 85%;
+	
+	margin-right: 10%;
+	margin-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	position: absolute;
+	top: 1470px;
+	left: -5%;
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+}
+
+.participation p, .participation h3{
+	margin-left: 5%;
+}
+
+.benefits{
+	background: transparent url("../img/backTitle.png") no-repeat top left; 
+	width: 90%;
+	
+	margin-left: 5%;
+	margin-bottom: 100px;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	position: absolute;
+	top: 2200px;
+	right: -5%;
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+}
+
+.benefits p, .benefits h3{
+	margin-right: 8%;
+	margin-left: 5%;
+}
+
+
+.requirements{
+	background: transparent url("../img/ZenBG4.png") repeat top left; 
+	width: 90%;
+	
+	margin-left: 0%;
+	margin-bottom: 100px;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	position: absolute;
+	top: 2700px;
+	left: -5px;
+	/*right: -5%;*/
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+}
+
+.requirements p, .requirements h3{
+	margin-left: 7%;
+}
+
+
+.footer-back{
+	/*background-color: #3C1BC9;*/
+    background: #3C1BC9 url("../img/backTitle.png") no-repeat top left; 
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+	
+	width: 100%;
+	height: 100px;
+	
+	position: absolute;
+	bottom: 0;
+	left: -10px;
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+	
+	z-index: -10;
+	
+}	
+
+
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	color: white;
+	background: #3C1BC9 url("../img/backTitle.png") no-repeat top left; 
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+	
+	font-size: 200%;
+	
+	width: 105%;
+	height: 100px;
+	
+	position: absolute;
+	top: 3750px;
+	left: -10px;
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+	
+	-webkit-transition: width 2s, opacity 3s; /* Safari */
+    transition: width 2s, opacity 3s;
+	
+	}
+
+footer:hover{
+	opacity: 1;
+    filter: alpha(opacity=100);
+	
+	width: 90%;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 300%;
+}	
+
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	color: white;
+	}
+
+.sideText{
+	
+	-ms-transform: translate(30px,100px) rotate(-90deg); /* IE 9 */
+   	-webkit-transform: translate(30px,100px) rotate(-90deg); /* Safari */
+    transform: translate(30px,100px) rotate(-90deg);
+	
+	font-family: 'Shadows Into Light';
+	font-size: 300%;
+	
+}
+
+
+.sidebar {
+	margin-left: 0px; 
+	position: absolute; 
+	top: 2100px;
+	left: -55px;
+	height: 300px;
+	color: white;
+	z-index: 20;
+	
+	
+	background: -webkit-radial-gradient(rgba(161, 200, 255, 0.75), rgba(64, 129, 147, 0.75)), url(http://i.imgur.com/3JZchqt.png), url(http://i.imgur.com/9kxBTzr.jpg);
+	background: radial-gradient(rgba(161, 200, 255, 0.75), rgba(64, 129, 147, 0.75)), url(http://i.imgur.com/3JZchqt.png), url(http://i.imgur.com/9kxBTzr.jpg);
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+	
+	
+	}
+
+
+.sidebar:hover > .wrapper {
+	visibility: visible;
+	
+}
+
+.sidebar:hover > .sideText {
+	visibility: hidden;
+	
+}
+
+.sidebar:hover{
+	visibility: hidden;
+}
+	
+.sidebar .wrapper { 
+	font: 10px verdana, sans-serif; 
+	padding: 10px; 
+	
+	width: 100%; 
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+	
+	background: -webkit-radial-gradient(rgba(161, 222, 240, 0.75), rgba(64, 129, 147, 0.75)), url(http://i.imgur.com/3JZchqt.png), url(http://i.imgur.com/9kxBTzr.jpg);
+	background: radial-gradient(rgba(161, 222, 240, 0.75), rgba(64, 129, 147, 0.75)), url(http://i.imgur.com/3JZchqt.png), url(http://i.imgur.com/9kxBTzr.jpg);
+	
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+	
+	/*display: none;*/
+	visibility: hidden;
+	
+	}
+	
+.sidebar .wrapper:hover { 
+	
+	margin-left: 55px;
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 100%;
+	padding: 10px; 
+	width: 500px; 
+	
+	box-shadow: 0px 0px 50px #000;
+    border-radius: 20px;
+	
+	}
+	
+.sidebar h3.select { 
+	
+	font-family: 'Shadows Into Light';
+	font-size: 100%;
+	
+	}
+	
+.sidebar  .design-selection{
+	-webkit-transition: font-size 2s; /* Safari */
+    transition: font-size 2s;
+}
+.sidebar  .design-selection:hover { 
+	font-size: 200%;
+}
+
+.sidebar  .design-archives{
+	-webkit-transition: font-size 2s; /* Safari */
+    transition: font-size 2s;
+}
+.sidebar  .design-archives:hover { 
+	font-size: 200%;
+}
+
+.sidebar  .zen-resources{
+	-webkit-transition: font-size 2s; /* Safari */
+    transition: font-size 2s;
+}
+.sidebar  .zen-resources:hover { 
+	font-size: 200%;
+}
+
+.sidebar h3.archives { 
+	
+	font-family: 'Shadows Into Light';
+	font-size: 100%;
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	
+	
+	}
+.sidebar h3.resources { 
+	
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 30px; 
+
+	font-family: 'Shadows Into Light';
+	font-size: 100%;
+	
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url("../img/cr1.gif") no-repeat top center; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	/*color: #988F5E;*/
+	color: white;
+	font-family: 'Open Sans Condensed';
+	
+	}
+.sidebar li a:visited {
+	/*color: #B3AE94;*/
+	color: white;
+	font-family: 'Open Sans Condensed';
+	}
+
+	
+.rope1{
+	width: 150px;
+	height: 50px;
+	
+	position: absolute;
+	bottom: 300px;
+	left: 0;
+	
+	z-index: -10;
+}
+
+.rope2{
+	width: 200px;
+	height: 50px;
+	
+	position: absolute;
+	bottom: 300px;
+	right: 0;
+	
+	
+	z-index: -10;
+}
+
+/******************************
+/* Developed by Diogo Victor  *
+/******************************/
